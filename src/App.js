@@ -1,12 +1,16 @@
-import LocalButton from './Button';
+import ReportsCard from "./card";
+import ReportsHome from './ReportsHome'
+import { Toolkit } from "@uitk/react";
+import "@uitk/themes/optum/fonts.css";
 import React from 'react';
 
 const App = () => (
+  <Toolkit appId="@uitk/react-starter-kit">
   <div>
-    <h1>Basic Host-Remote</h1>
-    <h2>App 2</h2>
-    <LocalButton />
+    <ReportsHome/>
+    {/* <ReportsCard/> */}
   </div>
+  </Toolkit>
 );
 
 export default App;
