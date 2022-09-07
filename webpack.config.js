@@ -40,8 +40,7 @@ module.exports = {
       library: { type: 'var', name: 'app2' },
       filename: 'remoteEntry.js',
       exposes: {
-        // './ReportsCard': './src/card/index',
-        './ReportsHome': './src/ReportsHome',
+        './ReportsTable': './src/table',
       },
       shared: { 
         ...deps,
